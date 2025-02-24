@@ -16,17 +16,17 @@
         <label for="item-description">Item Description:</label>
         <input type="text" id="item-description" name="item-description" required><br>
 
-        <label for="item-sl.no"> Item Serial No.: </label>
-        <input type="number" id="item-sl.no" name="item-sl.no" required><br>
+        <label for="item-sl-number"> Item Serial Number.: </label>
+        <input type="number" id="item-sl-number" name="item-sl-number" required><br>
 
         <label for="quantity"> Quantity: </label>
         <input type="number" id="quantity" name="quantity" required><br>
         
-        <label for="invoice-no"> Invoice No.: </label>
-        <input type="number" id="invoice-no" name="invoice-no" required><br>
+        <label for="invoice-number"> Invoice Number.: </label>
+        <input type="number" id="invoice-number" name="invoice-number" required><br>
         
-        <label for="vendor-challan-no"> Vendor Challan No.: </label>
-        <input type="number" id="vendor-challan-no" name="vendor-challan-no" required><br>
+        <label for="vendor-challan-number"> Vendor Challan Number.: </label>
+        <input type="number" id="vendor-challan-number" name="vendor-challan-number" required><br>
         
         <label for="supplier-name"> Supplier Name: </label>
         <input type="text" id="supplier-name" name="supplier-name" required><br>
