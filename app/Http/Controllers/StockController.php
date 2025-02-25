@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\stock;
 
 class StockController extends Controller
 {
     public function create()
     {
-        return view('stock_form');
+        return view('pages.stock-form');
     }
 
     public function store(Request $request)
@@ -20,6 +21,6 @@ class StockController extends Controller
     public function index()
     {
         $stocks = Stock::all();
-        return view('stock-list', compact('stocks'));
+        return view('pages.stock-list', compact('stocks'));
     }
 }
